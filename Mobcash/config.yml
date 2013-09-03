@@ -1,0 +1,63 @@
+#Mobcash - Created by Feazes
+
+Mobcash:
+    #Message sent to a player who just killed a mob
+    #Replacements can be used: colours &(1-9 | a-f) words &(player | mob | money)
+    Message: "&6Good job &c&player&6! you just killed a &c&mob &6and recieved &c&money"
+
+    #Disable cash for ways mobs have been spawned
+    Disable:
+        Mob Spawners: false
+        Spawn Egg: false
+        Breeding: false
+        Natural: false
+        Slime Split: false
+    #Worlds that the plugin is enabled in
+    Worlds:
+        - world
+        - world_nether
+    #Settings for the amount of cash players get for killing mobs
+    Mobs:
+        #Group Mob Settings
+        #This is for people who want to set the same price for all mobs in a group
+        Group Settings:
+            #if set to false Individual Mob Settings will be enabled
+            Enabled: false
+            Friendly Mobs: 5
+            Agressive Mobs: 15
+            Bosses: 45
+        #Individual Mob Settings 
+        #Format (Mob: <amount>)
+        #If you want the disable the mob put 0 as the amount
+        Friendly Mobs:
+            Bat: 3
+            Chicken: 3
+            Cow: 3
+            Horse: 3
+            Mushroom Cow: 3
+            Ocelot: 3
+            Pig: 3
+            Sheep: 3
+            Squid: 3
+            Villager: 3
+        Agressive Mobs:
+            Blaze: 10
+            Cave Spider: 10
+            Creeper: 10
+            Enderman: 10
+            Ghast: 10
+            Giant: 10
+            Iron Golem: 10
+            Magma Cube: 10
+            Pig Zombie: 10
+            Silver Fish: 10
+            Skeleton: 10
+            Slime: 10
+            Snowman: 10
+            Spider: 10
+            Witch: 10
+            Wolf: 10
+            Zombie: 10
+        Bosses:
+            Ender Dragon: 40
+            Wither: 40

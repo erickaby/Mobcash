@@ -1,0 +1,12 @@
+name: Mobcash
+author: Feazes
+main: me.Feazes.MobCash.Mobcash
+version: 2.3
+description: MobCash gives players money when they kill a mob
+depend: [Vault]
+
+commands:
+    mobcash:
+        description: shows information about the plugin
+        permission: mobcash.admin
+        permission-message: You dont have the permission for this command
