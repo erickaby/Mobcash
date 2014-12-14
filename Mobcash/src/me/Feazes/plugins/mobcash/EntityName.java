@@ -1,4 +1,4 @@
-package me.Feazes.plugins.mobcash;
+package me.Feazes.mobcash;
 
 import org.bukkit.entity.Entity;
 
