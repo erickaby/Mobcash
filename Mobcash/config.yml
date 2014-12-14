@@ -37,14 +37,17 @@ Mobcash:
             Mushroom Cow: 3
             Ocelot: 3
             Pig: 3
+            Rabbit: 3
             Sheep: 3
             Squid: 3
             Villager: 3
         Agressive Mobs:
             Blaze: 10
             Cave Spider: 10
+            Chicken Jockey: 10
             Creeper: 10
             Enderman: 10
+            Endermite: 10
             Ghast: 10
             Giant: 10
             Iron Golem: 10
@@ -60,4 +63,5 @@ Mobcash:
             Zombie: 10
         Bosses:
             Ender Dragon: 40
+            Guardian: 40
             Wither: 40

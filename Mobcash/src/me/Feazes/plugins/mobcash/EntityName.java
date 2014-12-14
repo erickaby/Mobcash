@@ -1,4 +1,4 @@
-package me.Feazes.plugins.mobcash;
+package me.Feazes.mobcash;
 
 import org.bukkit.entity.Entity;
 
@@ -14,8 +14,10 @@ public class EntityName {
 		case CREEPER:return"Creeper";
 		case ENDERMAN:return"Enderman";
 		case ENDER_DRAGON:return"Ender Dragon";
+		case ENDERMITE:return"Endermite";
 		case GHAST:return"Ghast";
 		case GIANT:return"Giant";
+		case GUARDIAN:return"Guardian";
 		case HORSE:return"Horse";
 		case IRON_GOLEM:return"Iron Golem";
 		case MAGMA_CUBE:return"Magma Cube";
@@ -23,6 +25,7 @@ public class EntityName {
 		case OCELOT:return"Ocelot";
 		case PIG:return"Pig";
 		case PIG_ZOMBIE:return"Pig Zombie";
+		case RABBIT:return"Rabbit";
 		case SHEEP:return"Sheep";
 		case SILVERFISH:return"Silver Fish";
 		case SKELETON:return"Skeleton";
